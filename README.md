@@ -1,7 +1,7 @@
 # Refactory Test
 
 - Clone Repo pingpong-app
-  ![Clone](https://github.com/gilbranfairuz/refactoryTest/blob/main/1-CloneRepo.png)
+![Clone](https://github.com/gilbranfairuz/refactoryTest/blob/main/1-CloneRepo.png)
 
 - Dockerize app
   - Dockerfile
