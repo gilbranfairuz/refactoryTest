@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: refac-deployment
+  labels:
+    app: refac
+spec:
+  selector:
+    matchLabels:
+      app: refac
+  template:
+    metadata:
+      labels:
+        app: refac
+    spec:
+      containers:
+      - name: refac
+        image: refactory:1
+        ports:
+        - containerPort: 3000
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: refac-service
+spec:
+  selector:
+    app: refac
+  #type: LoadBalancer
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+      #nodePort: 30000
+
+
+
+
