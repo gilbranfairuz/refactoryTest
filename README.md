@@ -14,15 +14,15 @@
     ![docker build](https://github.com/gilbranfairuz/refactoryTest/blob/main/2%2C1-DockerizeApp.png)
 
 - Kubernetes Manifest
-  - Deployment
+  - [Deployment](https://github.com/gilbranfairuz/refactoryTest/blob/main/manifest.yaml)
   
     ![Deployment](https://github.com/gilbranfairuz/refactoryTest/blob/main/3-Deployment.png)
 
-  - Service
+  - [Service](https://github.com/gilbranfairuz/refactoryTest/blob/main/manifest.yaml)
   
     ![Service](https://github.com/gilbranfairuz/refactoryTest/blob/main/3%2C2-Service.png)
 
-  - Ingress
+  - [Ingress](https://github.com/gilbranfairuz/refactoryTest/blob/main/ingress.yaml)
   
     ![Ingress](https://github.com/gilbranfairuz/refactoryTest/blob/main/3%2C3-Ingress.png)
 
